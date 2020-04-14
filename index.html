@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial=1.0 , mixmum-scale=1.0 ,minimum=1,0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <link rel="stylesheet" href="h06.css">
+</head>
+<body>
+<form action="http://ww.savatarian.com/html5/wform.php" method="post">
+
+    <h1>Voorbeeldformulier</h1>
+
+    <label for="voornaam">Voornaam</label>
+    <input class="textinputs" type="text" name="voornaam" id="voornaam">
+
+    <label for="lekkereten" id="lekkereten">Lekker eten</label>
+    <div class="eten">
+        <input type="checkbox">
+        <label>Sperziebonen</label>
+    </div>
+    <label for="tussenvoegsel">Tussenvoegsel</label>
+    <input class="textinputs"  type="text" name="Tussenvoegsel" id="tussenvoegsel">
+
+
+    <div class="eten">
+        <input type="checkbox">
+        <label>Aarddappel</label>
+    </div>
+
+    <label for="achternaam">Achternaam</label>
+    <input class="textinputs" type="text" name="achternaam" id="achternaam">
+
+    <div class="eten">
+        <input type="checkbox">
+        <label>Hamburger</label>
+    </div>
+
+    <label>Geslacht</label>
+    <div id="geslacht">
+        <input type="radio" name="geslacht" value="m">
+        <label>Man</label>
+        <input type="radio" name="geslacht" value="v">
+        <label>Vrouw</label>
+    </div>
+
+    <label class="ogen" >Kleur ogen</label>
+    <select id="kleurogen">
+        <option value="bruin">Bruin</option>
+        <option value="blauw">Blauw</option>
+        <option value="groen">Groen</option>
+    </select>
+
+    <label class="geboortedatum" for="geboortedatum">Geboortedatum</label>
+    <input type="date" id="geboortedatum" name="geboortedatum">
+
+    <label class="omschrijving" for="omschrijving">Omschrijving</label>
+    <textarea id="omschrijving" rows="10" cols="50">
+    </textarea>
+
+    <div class="buttons">
+        <button class="buttons"type="button">Annuleer</button>
+        <button class="buttons"type="button" >Ok</button>
+    </div>
+</form>
+</body>
+</html>

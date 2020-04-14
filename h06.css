@@ -1,0 +1,49 @@
+* {
+
+    margin: 10px;
+    align-self: center;
+}
+body{
+    margin: 0;
+    padding: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+form {
+    display: grid;
+    grid-template-columns: 16% 35% 10% 40%;
+}
+
+H1 {
+    grid-column: 1/5;
+    font-size: 30px;
+}
+
+.eten {
+    display: flex;
+    grid-column: 4/5;
+}
+
+.textinputs {
+    width: 300px;
+    border: solid 1px cornflowerblue;
+}
+
+.ogen {
+    display: flex;
+    grid-column: 1/2 ;
+}
+.geboortedatum {
+    display: flex;
+    grid-column: 1/2 ;
+}
+
+.omschrijving {
+    display: flex;
+    grid-column: 1/2 ;
+}
+
+.buttons {
+    display: flex;
+    grid-column: 4/5;
+}
